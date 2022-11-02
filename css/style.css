@@ -18,3 +18,9 @@ img{
     color:#4cbecf;
     font-weight: 600;
 }
+.end-text{
+    cursor: pointer;
+}
+.end-text:hover{
+    color:#aed9e0;
+}
