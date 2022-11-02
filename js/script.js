@@ -15,7 +15,8 @@ createApp({
         return{
             messaggio: 'Bentornato!',
             mainColor:'default',
-            
+            mainImg:'../img/',
+            img:'cat2.gif'
         }
     },
     methods:{

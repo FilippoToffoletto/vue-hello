@@ -22,8 +22,8 @@
         <div class="row">
             <h1 class="col-lg-10" :class="mainColor">{{messaggio}}</h1>
             <button class="col-lg-2 px-0 fs-3" @click="changeColor()">Cliccami</button>
-            <div class="mx-4 container-sm">
-                <img src="" alt="">
+            <div class=" container-sm py-4">
+                <img :src="mainImg + img" alt="">
             </div>
         </div>
         
