@@ -2,15 +2,19 @@ body{
     background-color: #ffa69e;
 }
 
+img{
+    width: 100%;
+}
+.container img{
+    max-height: 600px;
+}
 .default{
     color: #faf3dd;
 }
 .color{
     color:#b8f2e6;
 }
-img{
-    width: 100%;
-}
-.container img{
-    max-height: 600px;
+.clicked{
+    color:#4cbecf;
+    font-weight: 600;
 }

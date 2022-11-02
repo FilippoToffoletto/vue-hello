@@ -16,13 +16,15 @@ createApp({
             messaggio: 'Bentornato!',
             mainColor:'default',
             mainImg:'../img/',
-            img:'cat2.gif'
+            img:'cat2.gif',
+            show:''
         }
     },
     methods:{
         btnInput(){
             this.mainColor = 'color';
-            this.img = 'cat1.webp'
+            this.img = 'cat1.webp';
+            this.show= 'true'
         }
     }
 }).mount('#app');

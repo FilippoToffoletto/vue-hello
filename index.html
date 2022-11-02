@@ -21,9 +21,13 @@
     <div id="app" class="container py-4">
         <div class="row">
             <h1 class="col-lg-10" :class="mainColor">{{messaggio}}</h1>
-            <button class="col-lg-2 px-0 fs-3" @click="btnInput()">Cliccami</button>
-            <div class=" container-sm py-4">
+            <div class="col-lg-2 align-items-center">
+                <button type="button" class="btn btn-outline-primary" @click="btnInput()">Cliccami</button>
+
+            </div>
+            <div class="container-sm py-4">
                 <img :src="mainImg + img" alt="">
+                <h2 class="float-end clicked" v-show="show">Hai Cliccato</h2>
             </div>
         </div>
         
