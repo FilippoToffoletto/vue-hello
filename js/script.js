@@ -20,8 +20,9 @@ createApp({
         }
     },
     methods:{
-        changeColor(){
+        btnInput(){
             this.mainColor = 'color';
+            this.img = 'cat1.webp'
         }
     }
 }).mount('#app');
